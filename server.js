@@ -22,7 +22,7 @@ const path = require('path');
 const MongoDbStore = require('connect-mongodb-session')(session);
 
 var store = new MongoDbStore({
-    uri:'mongodb+srv://priyanshu88064:9758809708@cluster0.aqv81fc.mongodb.net/?retryWrites=true&w=majority',
+    uri:'mongodb+srv://harshkumar081001:mnYu5m0Bwc3mb0Ie@cluster0.hzn087i.mongodb.net/?retryWrites=true&w=majority',
    // uri:'mongodb://localhost:27017/chatify',
     collection:'session'
 });
